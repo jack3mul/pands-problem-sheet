@@ -3,7 +3,7 @@
 # Newton Method is to use formula root = 0.5 * (X + (N / X))
 # want to replace X on succesive steps
 
-N = int(input("Enter a number to calculate its square root: "))
+N = float(input("Enter a number to calculate its square root: "))
 X = N                            #initial guess to start calculations
 tolerance = 10 ** (-10)             #measure of accuracy - set high after testing low initially
 

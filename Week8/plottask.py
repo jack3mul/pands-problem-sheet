@@ -10,9 +10,9 @@ ypoints = xpoints
 gpoints = xpoints * xpoints
 hpoints = xpoints * xpoints * xpoints
 
-plt.plot(xpoints, ypoints, "g-o")
-plt.plot(xpoints, gpoints, "b-o")
-plt.plot(xpoints, hpoints, "r-o")
+plt.plot(xpoints, ypoints, "g-o")         #g-o switch from real python
+plt.plot(xpoints, gpoints, "b-o")         #g-o switch from real python
+plt.plot(xpoints, hpoints, "r-o")         #r-o switch from real python
 plt.xticks([0,1,2,3,4])
 plt.title("Plots on [0,4]")
 plt.legend(["f(x) = x", "g(x) = x ^ 2", "h(x) = x ^ 3"])
