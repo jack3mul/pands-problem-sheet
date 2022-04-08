@@ -6,4 +6,4 @@ and then uses the well known BMI calculation weight / height ^ 2
 
 [2] additional source: https://www.hollandandbarrett.ie/the-health-hub/weight-management/fitness/exercise/how-to-calculate-your-bmi/
 
-The script did not require additional research
+The script did not require additional research or further commits
